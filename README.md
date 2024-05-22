@@ -3,6 +3,7 @@
  
 ## Landing Page
 ![image](\public\img\home.png)
+<img align="center" height="350" width="100%" alt="codegif" src="\public\img\home.png">
 ## Login Page
  ![image](\public\img\login.png)
 ## UserPage
