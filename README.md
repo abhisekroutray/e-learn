@@ -2,24 +2,24 @@
 
  
 ## Landing Page
-![image](public\img\home.png)
+![image](\public\img\home.png)
 ## Login Page
- ![image](public\img\login.png)
+ ![image](\public\img\login.png)
 ## UserPage
 ![App Screenshot](public\img\dashboard.png)
 --
 ## Admin dashboard to add Courses
-![](public\img\corsepublish.png)
+![](\public\img\corsepublish.png)
 
-![](public\img\coursecreation.png)
+![](\public\img\coursecreation.png)
 ## Stripe for Payment
 ![]
 # SidePanel for user to watch courses
-![image](public/img/player.png)
+![image](\public/img/player.png)
 
 ## Teacher Dashboard to Watch course activity
  
- ![image](public\img\analytics.png)
+ ![image](\public\img\analytics.png)
 
 
 
