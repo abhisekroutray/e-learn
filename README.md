@@ -14,7 +14,6 @@
 
 <img align="center" height="100%" width="100%" alt="codegif" src="\public\img\coursepublish.png">
 
-![](\public\img\coursecreation.png)
 <img align="center" height="100%" width="100%" alt="codegif" src="\public\img\coursecreation.png">
 ## Stripe for Payment
 ![]
