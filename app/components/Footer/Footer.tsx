@@ -127,7 +127,7 @@ const footer = () => {
           @2023 - All Rights Reserved by{" "}
           <Link href="https://adminmart.com/" target="_blank">
             {" "}
-            Anshu Aditya
+            Abhisek Routray
           </Link>
         </h3>
       </div>
