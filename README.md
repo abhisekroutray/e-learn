@@ -2,25 +2,29 @@
 
  
 ## Landing Page
-![image](\public\img\home.png)
-<img align="center" height="350" width="100%" alt="codegif" src="\public\img\home.png">
+<img align="center" height="100%" width="100%" alt="codegif" src="\public\img\home.png">
 ## Login Page
- ![image](\public\img\login.png)
+
+ <img align="center" height="100%" width="100%" alt="codegif" src="\public\img\login.png">
 ## UserPage
-![App Screenshot](public\img\dashboard.png)
+
+<img align="center" height="100%" width="100%" alt="codegif" src="\public\img\dashboard.png">
 --
 ## Admin dashboard to add Courses
-![](\public\img\corsepublish.png)
+
+<img align="center" height="100%" width="100%" alt="codegif" src="\public\img\coursepublish.png">
 
 ![](\public\img\coursecreation.png)
+<img align="center" height="100%" width="100%" alt="codegif" src="\public\img\coursecreation.png">
 ## Stripe for Payment
 ![]
 # SidePanel for user to watch courses
-![image](\public/img/player.png)
+
+<img align="center" height="100%" width="100%" alt="codegif" src="\public\img\player.png">
 
 ## Teacher Dashboard to Watch course activity
  
- ![image](\public\img\analytics.png)
+ <img align="center" height="100%" width="100%" alt="codegif" src="\public\img\analytics.png">
 
 
 
