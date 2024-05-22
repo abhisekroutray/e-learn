@@ -44,7 +44,7 @@
 //       {
 //         quantity: 1,
 //         price_data: {
-//           currency: "USD",
+//           currency: "",
 //           product_data: {
 //             name: course.title,
 //             description: course.description!,

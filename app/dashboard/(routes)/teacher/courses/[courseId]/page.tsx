@@ -2,8 +2,8 @@ import { IconBadge } from "@/components/icon-badge";
 import { db } from "@/lib/db";
 import { auth } from "@clerk/nextjs";
 import {
-  CircleDollarSign,
   File,
+  IndianRupee,
   LayoutDashboard,
   ListChecks,
 } from "lucide-react";
@@ -116,7 +116,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
             </div>
             <div>
               <div className="flex items-center gap-x-2">
-                <IconBadge icon={CircleDollarSign} />
+                <IconBadge icon={IndianRupee} />
                 <h2 className="text-xl">Sell you course</h2>
               </div>
               <PriceForm initialData={course} courseId={course.id} />
