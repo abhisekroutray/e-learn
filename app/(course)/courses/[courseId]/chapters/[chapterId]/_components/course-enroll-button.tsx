@@ -16,13 +16,14 @@ export const CourseEnrollButton = ({
   courseId,
 }: CourseEnrollButtonProps) => {
   const [isLoading, setIsLoading] = useState(false);
+  const [isEnrolled, setIsEnrolled] = useState(false);
 
   const onClick = async () => {
     try {
       setIsLoading(true);
-      alert("Please do not use India as the billing address");
-      const response = await axios.post(`/api/courses/${courseId}/checkout`);
-      window.location.assign(response.data.url);
+      await axios.post(`/api/courses/${courseId}/checkout`);
+      setIsEnrolled(true);
+      toast.success("You have successfully enrolled in the course!");
     } catch (error) {
       toast.error("Something went wrong");
     } finally {
@@ -32,12 +33,12 @@ export const CourseEnrollButton = ({
 
   return (
     <Button
-      disabled={isLoading}
+      disabled={isLoading || isEnrolled}
       onClick={onClick}
       className="w-full md:w-auto"
       size="sm"
     >
-      Enroll for {formatPrice(price)}
+      {isEnrolled ? "Enrolled" : `Enroll for ${formatPrice(price)}`}
     </Button>
   );
 };
