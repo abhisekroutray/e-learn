@@ -1,5 +1,5 @@
 import { db } from "@/lib/db";
-import {   Course, Purchase } from "@prisma/client";
+import { Course, Purchase } from "@prisma/client";
 
 type PurchaseWithCourse = Purchase & {
   course: Course;
@@ -25,7 +25,7 @@ export const getAnalytics = async (userId: string) => {
       where: {
         userId: {
           equals: userId,
-          mode: 'insensitive',
+          // mode: "insensitive",
         },
       },
       include: {
